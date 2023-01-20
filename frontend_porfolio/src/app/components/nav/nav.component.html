@@ -1,0 +1,33 @@
+<nav class="container">
+    <div class="container" id="menu" class="d-flex justify-content-between">
+        <div id="cont-logo-texto" class="d-flex justify-content-between">
+            <div id="logo">
+                <img src="./assets/icons8-consola-96.png" class="img-fluid">
+            </div>
+            <div id="texto-logo" class="d-flex flex-column justify-content-between">
+                <span id="arg-prog">Argentina Programa</span>
+                <span id="yo-prog">#YoProgramo</span>
+            </div>
+        </div>
+        <div id="cont-botones-header" class="d-flex align-items-center justify-content-center">
+            <div id="instagram" class="mx-auto">
+                <a href="https://www.instagram.com/j.4nt1ll3/"><img src="./assets/icons8-instagram-48.png"
+                        class="img-fluid"></a>
+            </div>
+            <div id="linkedin" class="mx-auto">
+                <a href="https://www.linkedin.com/in/jos%C3%A9-antille-6a361321b/"><img
+                        src="./assets/icons8-linkedin-rodeado-de-círculo-48.png" class="img-fluid"></a>
+            </div>
+            <div id="login" class="mx-auto">
+                <button type="button" class="btn btn-secondary" (click)="login()" *ngIf="!isLogged" style="border-radius: 50%"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                    <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                  </svg></button>
+                <button type="button" class="btn btn-secondary" (click)="onLogOut()" *ngIf="isLogged" style="border-radius: 50%"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                  </svg></button>
+            </div>
+        </div>
+    </div>
+</nav>

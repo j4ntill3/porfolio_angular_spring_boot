@@ -1,0 +1,157 @@
+
+/* PROYECTOS */
+
+#cont-titulo-proyectos {
+    width: 90% !important;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#titulo-proyectos {
+    color: #191919;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+#descripcion-proyecto {
+    margin-bottom: 10px;
+}
+
+.cont-item-proyecto {
+    width: 90% !important;
+    margin: auto;
+    padding: 20px;
+
+}
+
+#proyectos {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    font-family: "Roboto mono semibold";
+}
+
+.proyecto-item {
+    margin-bottom: 1.5rem;
+}
+
+#titulo-proyecto {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.cont-item-educacion {
+    padding: 0.5rem;
+}
+
+/* PROYECTOS END */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+
+    /* PROYECTOS */
+    #titulo-proyecto {
+        font-size: 0.9rem;
+    }
+
+    #descripcion-proyecto {
+        font-size: 0.5rem;
+    }
+
+    #titulo-proyectos {
+        font-size: 1.2rem;
+    }
+
+    .cont-item-educacion {
+        padding: 0.8rem;
+    }
+
+    /* PROYECTOS END */
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 577px) and (max-width: 768px) {
+
+    /* PROYECTOS */
+    #titulo-proyecto {
+        font-size: 1rem;
+    }
+
+    #descripcion-proyecto {
+        font-size: 0.6rem;
+    }
+
+    #titulo-proyectos {
+        font-size: 1.3rem;
+    }
+
+    .cont-item-educacion {
+        padding: 0.9rem;
+    }
+
+    /* PROYECTOS END */
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 992px) {
+
+    /* PROYECTOS */
+    #titulo-proyecto {
+        font-size: 1.1rem;
+    }
+
+    #descripcion-proyecto {
+        font-size: 0.7rem;
+    }
+
+    #titulo-proyectos {
+        font-size: 1.4rem;
+    }
+
+    .cont-item-educacion {
+        padding: 1rem;
+    }
+
+    /* PROYECTOS END */
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    /* PROYECTOS */
+    #titulo-proyecto {
+        font-size: 1.2rem;
+    }
+
+    #descripcion-proyecto {
+        font-size: 0.8rem;
+    }
+
+    #titulo-proyectos {
+        font-size: 1.5rem;
+    }
+
+    .cont-item-educacion {
+        padding: 1.1rem;
+    }
+
+    /* PROYECTOS END */
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1201px) {
+
+    /* PROYECTOS */
+    #titulo-proyecto {
+        font-size: 1.3rem;
+    }
+
+    #descripcion-proyecto {
+        font-size: 0.9rem;
+    }
+
+    #titulo-proyectos {
+        font-size: 1.6rem;
+    }
+
+    /* PROYECTOS END */
+}

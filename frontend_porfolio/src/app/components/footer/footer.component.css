@@ -1,0 +1,86 @@
+
+
+/* FOOTER */
+
+#footer-desarrollador {
+    margin: auto;
+    font-family: 'Roboto mono semibold';
+    font-weight: 500;
+  }
+  
+  /* FOOTER END */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+      /* FOOTER */
+
+  footer {
+    height: 80px;
+  }
+
+  #footer-desarrollador {
+    font-size: 0.5rem;
+  }
+
+  /* FOOTER END */
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* FOOTER */
+
+  footer {
+    height: 100px;
+  }
+
+  #footer-desarrollador {
+    font-size: 0.6rem;
+  }
+
+  /* FOOTER END */
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* FOOTER */
+
+  footer {
+    height: 120px;
+  }
+
+  #footer-desarrollador {
+    font-size: 0.7rem;
+  }
+
+  /* FOOTER END */
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* FOOTER */
+
+  footer {
+    height: 140px;
+  }
+
+  #footer-desarrollador {
+    font-size: 0.8rem;
+  }
+
+  /* FOOTER END */
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1201px) {
+  /* FOOTER */
+
+  footer {
+    height: 150px;
+  }
+
+  #footer-desarrollador {
+    font-size: 0.9rem;
+  }
+
+  /* FOOTER END */
+}

@@ -1,0 +1,17 @@
+<div class="border border-secondary container d-flex flex-column justify-content-center" style="height: 100vh" *ngIf="header">
+    <div>
+        <div>
+            <form  (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="imgP">Imagen Portada</label> 
+                    <input type="file" class="form-control" id="imgP" name="imgP" [(ngModel)]="header.urlP" (change)="uploadImage($event)" 
+                    accept=".jpg, jpeg, .png">
+                </div>
+                <br>
+                <button class="btn btn-secondary">
+                    Editar Portada
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

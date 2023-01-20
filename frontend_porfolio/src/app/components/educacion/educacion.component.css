@@ -1,0 +1,239 @@
+
+
+/* EDUCACION */
+
+#cont-titulo-educacion {
+    width: 90% !important;
+    margin-top: 1.5rem;
+}
+
+#educacion {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    font-family: "Roboto mono semibold";
+}
+
+.colum-img-educacion {
+    margin: auto;
+}
+
+.cont-item-educacion {
+    width: 90% !important;
+    margin-bottom: 20px;
+}
+
+#titulo-educacion {
+    color: #191919;
+    font-size: 1.6rem;
+    font-family: 'Roboto mono semibold';
+    font-weight: 600;
+}
+
+.nombre-institucion {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.anio-curso {
+    font-size: 0.9rem;
+}
+
+.nombre-certificacion {
+    font-size: 1.3rem;
+}
+
+.descripcion-curso {
+    font-size: 1rem;
+}
+
+/* EDUACION END */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+    
+    /* EDUCACION */
+
+    #educacion h3 {
+        font-size: 1.1rem;
+    }
+
+    .nombre-institucion {
+        font-size: 0.7rem;
+    }
+
+    .anio-curso {
+        font-size: 0.4rem;
+    }
+
+    .nombre-certificacion {
+        font-size: 0.6rem;
+    }
+
+    .descripcion-curso {
+        font-size: 0.5rem;
+    }
+
+    .cont-img-educacion {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    #titulo-educacion {
+        font-size: 1.2rem;
+    }
+
+    /* EDUACION END */
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 577px) and (max-width: 768px) {
+
+    /* EDUCACION */
+
+    #educacion h3 {
+        font-size: 1.2rem;
+    }
+
+    .nombre-institucion {
+        font-size: 0.9rem;
+    }
+
+    .anio-curso {
+        font-size: 0.5rem;
+    }
+
+    .nombre-certificacion {
+        font-size: 0.8rem;
+    }
+
+    .descripcion-curso {
+        font-size: 0.6rem;
+    }
+
+    .cont-img-educacion {
+        width: 45px;
+        height: 45px;
+    }
+
+
+    #titulo-educacion {
+        font-size: 1.3rem;
+    }
+
+    /* EDUACION END */
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* EDUCACION */
+
+    #educacion h3 {
+        font-size: 1.3rem;
+    }
+
+    .nombre-institucion {
+        font-size: 1.1rem;
+    }
+
+    .anio-curso {
+        font-size: 0.6rem;
+    }
+
+    .nombre-certificacion {
+        font-size: 1rem;
+    }
+
+    .descripcion-curso {
+        font-size: 0.7rem;
+    }
+
+    .cont-img-educacion {
+        width: 55px;
+        height: 55px;
+    }
+
+
+    #titulo-educacion {
+        font-size: 1.4rem;
+    }
+
+    /* EDUACION END */
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* EDUCACION */
+
+    #educacion h3 {
+        font-size: 1.4rem;
+    }
+
+    .nombre-institucion {
+        font-size: 1.2rem;
+    }
+
+    .anio-curso {
+        font-size: 0.7rem;
+    }
+
+    .nombre-certificacion {
+        font-size: 1.1rem;
+    }
+
+    .descripcion-curso {
+        font-size: 0.8rem;
+    }
+
+    .cont-img-educacion {
+        width: 65px;
+        height: 65px;
+    }
+
+
+    #titulo-educacion {
+        font-size: 1.5rem;
+    }
+
+    /* EDUACION END */
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1201px) {
+    /* EDUCACION */
+
+    #educacion h3 {
+        font-size: 1.5rem;
+    }
+
+    .nombre-institucion {
+        font-size: 1.3rem;
+    }
+
+    .anio-curso {
+        font-size: 0.8rem;
+    }
+
+    .nombre-certificacion {
+        font-size: 1.2rem;
+    }
+
+    .descripcion-curso {
+        font-size: 0.9rem;
+    }
+
+    .cont-img-educacion {
+        width: 80px;
+        height: 80px;
+    }
+
+    #titulo-educacion {
+        font-size: 1.6rem;
+    }
+
+    .cont-item-educacion {
+        padding: 1.2rem;
+    }
+
+    /* EDUACION END */
+}

@@ -1,0 +1,22 @@
+<div id="descripcion" class="container border-bottom border-secondary">
+    <div id="cont-acerca-de" class="row">
+        <div id="cont-nombre-titulo"
+            class="col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex flex-column align-items-center justify-content-around"
+            style="padding: 0px;">
+            <div id="cont-foto-perfil">
+                <div id="foto-perfil">
+                    <img src={{persona.img}} class="rounded-circle img-fluid">
+                </div>
+            </div>
+            <span id="nombre">{{persona.nombre}} {{persona.apellido}}</span>
+            <span id="full">{{persona.perfil}}</span>
+            <button type="button" class="btn btn-secondary" routerLink="/editdescripcion/1" *ngIf="isLogged" style="margin-top: 1rem;">Editar Datos</button>
+        </div>
+        <div id="cont-descripcion" class="col-sm-12 col-md-9 col-lg-9 col-xl-9">
+            <h2 style="margin-bottom: 1rem">Acerca de mi</h2>
+            <span id="texto-descripcion">
+                {{persona.descripcion}}
+            </span>
+        </div>
+    </div>
+</div>

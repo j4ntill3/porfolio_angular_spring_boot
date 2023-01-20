@@ -1,0 +1,1 @@
+Para que la aplicación funcione se necesita importar la base de datos (archivo "db_porfolio_web").

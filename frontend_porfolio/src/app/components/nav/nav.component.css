@@ -1,0 +1,253 @@
+
+
+/* NAV */
+
+#menu {
+  height: 100px;
+  font-family: "Roboto mono semibold";
+}
+
+#arg-prog {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+#yo-prog {
+  font-family: 'Roboto mono semibold';
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+#texto-logo {
+  padding-top: 4px;
+}
+
+#logo {
+  margin: auto;
+}
+
+#texto-logo {
+  margin: auto;
+}
+
+#texto-logo span {
+  color: #191919;
+}
+
+/* NAV END */
+
+/* Media Query for Large screens */
+@media (min-width: 1201px) {
+
+  /* NAV */
+
+  #menu {
+    height: 90px;
+  }
+
+  #logo {
+    width: 76px;
+    height: 76px;
+  }
+
+  #arg-prog {
+    font-size: 1.2rem;
+  }
+
+  #yo-prog {
+    font-size: 1.2rem;
+  }
+
+  #instagram {
+    width: 45px;
+    height: 45px;
+  }
+
+  #linkedin {
+    width: 45px;
+    height: 45px;
+  }
+
+  #login {
+    width: 45px;
+    height: 45px;
+  }
+
+  /* NAV END */
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+  /* NAV */
+
+  #menu {
+    height: 80px;
+  }
+
+  #logo {
+    width: 66px;
+    height: 66px;
+  }
+
+  #arg-prog {
+    font-size: 1rem;
+  }
+
+  #yo-prog {
+    font-size: 1rem;
+  }
+
+  #instagram {
+    width: 40px;
+    height: 40px;
+  }
+
+  #linkedin {
+    width: 40px;
+    height: 40px;
+  }
+
+  #login {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* NAV END */
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 992px) {
+
+  /* NAV */
+
+  #menu {
+    height: 80px;
+  }
+
+  #logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  #arg-prog {
+    font-size: 0.8rem;
+  }
+
+  #yo-prog {
+    font-size: 0.8rem;
+  }
+
+  #instagram {
+    width: 35px;
+    height: 35px;
+  }
+
+  #linkedin {
+    width: 40px;
+    height: 40px;
+  }
+
+  #login {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* NAV END */
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 577px) and (max-width: 768px) {
+
+  /* NAV */
+
+  #cont-foto-perfil {
+    width: 13.7rem;
+  }
+
+  #menu {
+    height: 70px;
+  }
+
+  #cont-descripcion {
+    text-align: center;
+  }
+
+  #logo {
+    width: 46px;
+    height: 46px;
+  }
+
+  #arg-prog {
+    font-size: 0.6rem;
+  }
+
+  #yo-prog {
+    font-size: 0.6rem;
+  }
+
+  #instagram {
+    width: 30px;
+    height: 30px;
+  }
+
+  #linkedin {
+    width: 30px;
+    height: 30px;
+  }
+
+  #login {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* NAV END */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+
+  /* HEADER */
+
+  #cont-foto-perfil {
+    width: 12.7rem;
+  }
+
+  #menu {
+    height: 60px;
+  }
+
+  #cont-descripcion {
+    text-align: center;
+  }
+
+  #logo {
+    width: 36px;
+    height: 36px;
+  }
+
+  #arg-prog {
+    font-size: 0.5rem;
+  }
+
+  #yo-prog {
+    font-size: 0.5rem;
+  }
+
+  #instagram {
+    width: 25px;
+    height: 25px;
+  }
+
+  #linkedin {
+    width: 25px;
+    height: 25px;
+  }
+
+  #login {
+    width: 25px;
+    height: 25px;
+  }
+
+  /* HEADER */
+}

@@ -1,0 +1,278 @@
+/* DESCRIPTION */
+
+#descripcion {
+    padding: 20px;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    font-family: "Roboto mono semibold";
+  }
+  
+  #cont-acerca-de {
+    margin: 0px;
+  }
+  
+  #nombre {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
+  #full {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  
+  #cont-descripcion h2 {
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 1rem;
+  }
+
+  #foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -7rem;
+    margin-left: 3rem;
+  }
+  
+  #cont-foto-perfil{
+    width: 14.5rem;
+  }
+  
+  /* DESCRIPTION END */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+
+    /* DESCRIPTION */
+
+    #texto-descripcion {
+        font-size: 0.7rem;
+    }
+
+    #cont-descripcion h2 {
+        font-size: 1.2rem;
+    }
+
+    #cont-foto-perfil {
+        width: 12.7rem;
+    }
+
+    #foto-perfil {
+        width: 110px;
+        height: 110px;
+        margin-top: -6rem;
+    }
+
+    #nombre {
+        font-size: 1.3rem;
+    }
+
+    #full {
+        font-size: 0.8rem;
+    }
+
+    #cont-descripcion p {
+        font-size: 0.7rem;
+    }
+
+    #cont-descripcion {
+        text-align: center;
+    }
+
+    #cont-foto-perfil{
+        width: 12.7rem;
+      }
+    
+      #foto-perfil {
+        width: 110px;
+        height: 110px;
+        margin-top: -6rem;
+      }
+
+    /* DESCRIPTION END */
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 577px) and (max-width: 768px) {
+
+    /* DESCRIPTION */
+
+    #texto-descripcion {
+        font-size: 0.8rem;
+    }
+
+    #cont-descripcion h2 {
+        font-size: 1.3rem;
+    }
+
+    #cont-foto-perfil {
+        width: 13.7rem;
+    }
+
+    #foto-perfil {
+        width: 120px;
+        height: 120px;
+        margin-top: -6rem;
+    }
+
+    #nombre {
+        font-size: 1.4rem;
+    }
+
+    #full {
+        font-size: 0.7rem;
+    }
+
+    #cont-descripcion p {
+        font-size: 0.8rem;
+    }
+
+    #cont-descripcion {
+        text-align: center;
+    }
+
+    #cont-foto-perfil{
+        width: 13.7rem;
+      }
+    
+      #foto-perfil {
+        width: 120px;
+        height: 120px;
+        margin-top: -6rem;
+      }
+
+    /* DESCRIPTION END */
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 992px) {
+
+    /* DESCRIPTION */
+
+    #texto-descripcion {
+        font-size: 0.9rem;
+    }
+
+    #cont-descripcion h2 {
+        font-size: 1.4rem;
+    }
+
+    #foto-perfil {
+        width: 130px;
+        height: 130px;
+    }
+
+    #nombre {
+        font-size: 1.3rem;
+    }
+
+    #full {
+        font-size: 0.8rem;
+    }
+
+    #cont-descripcion p {
+        font-size: 0.9rem;
+    }
+
+    /* DESCRIPTION END */
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    /* DESCRIPTION */
+
+    #texto-descripcion {
+        font-size: 1rem;
+    }
+
+    #cont-descripcion h2 {
+        font-size: 1.5rem;
+    }
+
+    #foto-perfil {
+        width: 130px;
+        height: 130px;
+    }
+
+    #nombre {
+        font-size: 1.7rem;
+    }
+
+    #full {
+        font-size: 1rem;
+    }
+
+    #cont-descripcion p {
+        font-size: 1.1rem;
+    }
+
+    /* DESCRIPTION END */
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    /* DESCRIPTION */
+  
+    #texto-descripcion {
+      font-size: 1rem;
+    }
+  
+    #cont-descripcion h2 {
+      font-size: 1.5rem;
+    }
+  
+    #foto-perfil {
+      width: 130px;
+      height: 130px;
+    }
+  
+    #nombre {
+      font-size: 1.7rem;
+    }
+  
+    #full {
+      font-size: 1rem;
+    }
+  
+    #cont-descripcion p {
+      font-size: 1.1rem;
+    }
+  
+    /* DESCRIPTION END */
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1201px) {
+
+    /* DESCRIPTION */
+  
+    #texto-descripcion {
+      font-size: 1.1rem;
+    }
+  
+    #cont-descripcion h2 {
+      font-size: 1.6rem;
+    }
+  
+    #foto-perfil {
+      width: 140px;
+      height: 140px;
+    }
+  
+    #nombre {
+      font-size: 1.8rem;
+    }
+  
+    #full {
+      font-size: 1.1rem;
+    }
+  
+    #cont-descripcion p {
+      font-size: 1.2rem;
+    }
+  
+    /* DESCRIPTION END */
+}

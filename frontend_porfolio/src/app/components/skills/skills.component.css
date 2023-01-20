@@ -1,0 +1,78 @@
+/* SKILLS */
+
+#cont-titulo-skills {
+    width: 90% !important;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#skills {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+    font-family: "Roboto mono semibold";
+}
+
+.item-progreso {
+    padding: 7px;
+}
+
+#titulo-skills {
+    font-weight: 600;
+}
+
+/* SKILLS END */
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+    /* SKILLS */
+
+    #titulo-skills {
+        font-size: 1.2rem;
+    }
+
+    /* SKILLS END */
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* SKILLS */
+
+    #titulo-skills {
+        font-size: 1.3rem;
+    }
+
+    /* SKILLS END */
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* SKILLS */
+
+    #titulo-skills {
+        font-size: 1.4rem;
+    }
+
+    /* SKILLS END */
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* SKILLS */
+
+    #titulo-skills {
+        font-size: 1.5rem;
+    }
+
+    /* SKILLS END */
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1201px) {
+    /* SKILLS */
+
+    #titulo-skills {
+        font-size: 1.6rem;
+    }
+
+    /* SKILLS END */
+}

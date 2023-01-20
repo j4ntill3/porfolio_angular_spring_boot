@@ -1,0 +1,26 @@
+<div class="border border-secondary container d-flex flex-column justify-content-center" style="height: 100vh">
+    <div class="row">
+        <div>
+            <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                <div class="form-group">
+                    <label for="nombreP">Nombre del Proyecto</label>
+                    <input type="text" class="form-control" id="nombreP" name="nombreP" [(ngModel)]="proyecto.nombreP" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="descripcionP">Descripcion del Proyecto</label>
+                    <input type="text" class="form-control" id="descripcionP" name="descripcionP" [(ngModel)]="proyecto.descripcionP" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="urlP">Descripcion del Proyecto</label>
+                    <input type="text" class="form-control" id="urlP" name="urlP" [(ngModel)]="proyecto.urlP" required>
+                </div>
+                <br>
+                <button class="btn btn-secondary">
+                    Editar Proyecto
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
